@@ -1,0 +1,15 @@
+*/* o asterisco indica para seleciona tudo  */
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header_cabecalho
+{
+background-color: antiquewhite;
+justify-content: space-between; /*justifica os itens e separa os itens no caso joga o menu de um lado e outro*/
+display: flex;
+align-items: center;
+padding: 50px;
+flex-wrap: wrap; /*flex wrap serve para autorizar em uma tela menor quebrar os itens*/
+}
