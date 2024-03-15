@@ -8,9 +8,9 @@
 {
 background-color: #000000;
 justify-content: space-between; /*justifica os itens e separa os itens no caso joga o menu de um lado e outro*/
-display: flex;
-align-items: center;
-padding: 50px;
+display: flex; /*alinha os itens um do lado do outro*/
+align-items: center; /*alinha os itens ao centralizados*/
+padding: 50px; /*mexe na altura do header no caso cabeçalho*/
 flex-wrap: wrap; /*flex wrap serve para autorizar em uma tela menor quebrar os itens*/
 }
 
@@ -72,6 +72,7 @@ h1
 {
     margin: 10px; /*Espaçamento das margens laterais superior e inferior*/
     flex: 1 1 200px; /*cria as caixinhas para as imagens ficarem centralizados no mesmo tamanho*/
+    box-shadow: 10px 10px 10px black;
 }
 
 .flex img
@@ -137,15 +138,34 @@ display: flex; /*colcoanco ul com os itens lado a lado*/
     margin-left: 10px; /*alinha o espaçamento */
     
 }
-.div_footer a
-{
-    text-decoration: none;
-    color: aliceblue;
-}
+
 .a_footer:hover
 {
     
     color: rgb(23, 86, 150);
     border-color:black;
     transition: 0,7s;
+}
+h2
+{
+text-align: center;
+margin-top: 50px;
+font-size: 50px;
+
+}
+.youtube
+{
+    color: red;
+}
+.twiter
+{
+    color: rgb(0, 158, 250);
+}
+.instagran
+{
+    color: rgb(250, 0, 154);
+}
+.zap
+{
+    color: rgb(6, 177, 43);
 }
