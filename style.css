@@ -1,15 +1,145 @@
-*/* o asterisco indica para seleciona tudo  */
+*/* o asterisco mexe em tudo dentro pagina*/
 {
-    margin: 0;
-    padding: 0;
+    margin: 0; /*tira as margens brancas das laterais*/
+    padding: 0; /**/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header_cabecalho
 {
-background-color: antiquewhite;
+background-color: #000000;
 justify-content: space-between; /*justifica os itens e separa os itens no caso joga o menu de um lado e outro*/
 display: flex;
 align-items: center;
 padding: 50px;
 flex-wrap: wrap; /*flex wrap serve para autorizar em uma tela menor quebrar os itens*/
+}
+
+.header_cabecalho i /*icone é alterado como se fosse fonte*/
+{
+    font-size: 100px;
+    color: aliceblue;
+}
+
+
+.menu li a /*mexe na tag a*/
+{
+color: aliceblue;
+text-decoration: none; /*remove o subrlinhado da tag a*/
+background-color: #0b0b0b;
+padding: 10px; /*gerou os botões para ancora no menu*/
+
+}
+.menu li a:hover
+{
+    color: rgb(23, 86, 150);
+    border-color:black;
+    transition: 0,7s;
+}
+
+.menu li
+{
+    
+    margin-left: 10px; /*alinha o espaçamento */
+}
+.menu 
+{
+    list-style-type: none; /*remove as bolinhas sa ul li*/
+    display: flex; /*alinha na horizontal*/
+    
+}
+.secao1
+{
+
+display: flex;
+flex-wrap: wrap; /*quebra o tamanho dos itens, parecido com uma quebra de texto*/
+max-width: 800px; /*mexe na largura e dar tamanho maximo para section*/
+margin: 0 auto; /*trouxe os itens da section para o centro*/
+margin-bottom: 80px; /* mexe na mergin da parte inferior*/
+text-align: center;
+
+}
+h1
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.secao1 img
+{
+    max-width: 100%; /*adaptação maxima para imagen dentro da div ou pagina */
+    display: block; /*reforç a que as imagens estejam em blocos */
+}
+.secao1 div
+{
+    margin: 10px; /*Espaçamento das margens laterais superior e inferior*/
+    flex: 1 1 200px; /*cria as caixinhas para as imagens ficarem centralizados no mesmo tamanho*/
+}
+
+.flex img
+{
+    width: 200px;
+    height: 200px;
+
+}
+
+.secao2
+{
+
+background-color: #0b0b0b;
+color:aliceblue;
+padding: 100px;
+
+}
+
+.div_pai
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.rodape
+{
+background-color: #0c0c0c;
+padding: 50px;
+color: aliceblue;
+display: flex; /*flexiona os itens em blocos*/
+align-items: center; /*alinha os itens ao centro */
+justify-content: space-evenly; /*cuda da distribuição de itens*/
+list-style-type: none;
+}
+.list_rodape
+{
+display: flex; /*colcoanco ul com os itens lado a lado*/
+
+}
+.list_rodape li
+{
+    margin-right: 20px;
+    list-style: none;
+}
+.list_rodape li a /*estiliza ancora dentro da li*/
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.div_footer
+{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 10px; /*alinha o espaçamento */
+    
+}
+.div_footer a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.a_footer:hover
+{
+    
+    color: rgb(23, 86, 150);
+    border-color:black;
+    transition: 0,7s;
 }
